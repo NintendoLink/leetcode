@@ -59,7 +59,7 @@ public class MyQueueSolution {
 //            temp = leftStack.pop();
 //        }
 //
-//        while (!rightStack.isEmpty()){
+//        while (!rightStack.empty()){
 //            leftStack.push(rightStack.pop());
 //        }
 //
@@ -77,7 +77,7 @@ public class MyQueueSolution {
 //        }
 //
 //        leftStack.push(temp);
-//        while (!rightStack.isEmpty()){
+//        while (!rightStack.empty()){
 //            leftStack.push(rightStack.pop());
 //        }
 //
@@ -85,7 +85,7 @@ public class MyQueueSolution {
 //    }
 //
 //    public boolean empty(){
-//        return leftStack.isEmpty();
+//        return leftStack.empty();
 //    }
 
     public void push(int n) {

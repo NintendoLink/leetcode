@@ -37,7 +37,7 @@ public class DetectCapitalUseSolution {
      */
     public static boolean detectCapitalUse(String word) {
 
-//        if (word != null && !(word.isEmpty())) {
+//        if (word != null && !(word.empty())) {
 //            char[] chs = word.toCharArray();
 //            return isLowCase(chs) || isAllHighCase(chs) || isStandardCase(chs);
 //        } else {
